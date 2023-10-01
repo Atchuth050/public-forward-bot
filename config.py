@@ -10,8 +10,8 @@ class Config:
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "ARJUN")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
     SESSION = os.environ.get("SESSION", "")   
-    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", ""))
-    BOT_USERNAME= os.environ.get("BOT_USERNAME", "")
+    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "ExtraPeBot"))
+    BOT_USERNAME= os.environ.get("BOT_USERNAME", " @ARforward050Bot")
 
 
 def LOGGER(name: str) -> logging.Logger:
