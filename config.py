@@ -1,9 +1,9 @@
 import os
 import logging
 class Config:                                                                   
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")       
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = int(os.environ.get("API_ID", "29063710"))
+    API_HASH = os.environ.get("API_HASH", "86a28f873f227e3289af91fa88931511")       
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6302772060:AAGtWrE5ZAP426-hbCB21YDdefC3BHy_4uk")
     BOT_SESSION = os.environ.get("BOT_SESSION", "forwardbot")
     OWNER_ID = os.environ.get("OWNER_ID", "")                             
     DATABASE_URI = os.environ.get("DATABASE_URI", "")  
